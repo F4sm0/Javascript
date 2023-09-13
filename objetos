@@ -1,0 +1,23 @@
+<html>
+<head>
+</head>
+<body>
+    <script>
+        function veículo(tipo, cor, peso, portas) {
+
+        this.tipo = tipo;    
+        this.cor = cor;
+        this.peso = peso;
+        this.portas = portas;
+    }
+        const veículo1 = new veículo ("carro","preto", "1200kg", "4 portas");
+        const veículo2 = new veículo ("moto","vermelho", "115kg", "0 portas");
+        const veículo3 = new veículo ("caminhao","cinza", "4000kg", "2 portas");
+
+
+        console.log(veículo1.tipo.toLowerCase(), veículo1.cor.toLowerCase());
+        console.log(veículo2.tipo.toLowerCase(), veículo2.peso.toLowerCase());
+        console.log(veículo3.tipo.toLowerCase(), veículo1.portas.toLowerCase());
+    </script>
+</body>
+</html>
